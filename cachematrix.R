@@ -1,4 +1,7 @@
-### To Do: This script consists of 2 functions: makeCacheMatrix and cacheSolve
+### "To Do: Generate inverse of matrix once and 
+### Save it in the cache to be retrieved later."
+### Contents: This script consists of 2 functions: makeCacheMatrix and cacheSolve
+
 
 ### Example: y0=matrix(c(3,1,8,9), 2, 2)
 # y00 <- solve(y0)
@@ -14,6 +17,10 @@
 ### Function to generate the special matrix object that holds the input matrix and its inverse counterpart in cache. IT follows the same pattern as the example set. It returns the list of functions to be used in the  cacheSolve function.
 
 # Note: the input should be a square matrix. 
+
+
+### Function to generate the special matrix object that holds the input matrix and its inverse counterpart in cache. IT follows the same pattern as the example set. It returns the list of functions to be used in the  cacheSolve function.
+
 
 makeCacheMatrix <- function(matrix.data = matrix(nrow = 2, ncol = 2)) {
     inv_mat <- NULL # initialization
